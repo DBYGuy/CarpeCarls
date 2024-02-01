@@ -19,7 +19,10 @@ type AppPropsWithLayout = AppProps & {
 
 const MyApp = (({ Component, pageProps }: AppPropsWithLayout) => {
   const getLayout =
-    Component.getLayout ?? ((page) => <DefaultLayout>{page}</DefaultLayout>);
+    Component.getLayout ??
+    ((page) => {
+      return <DefaultLayout>{page}</DefaultLayout>;
+    });
 
   return getLayout(<Component {...pageProps} />);
 }) as AppType;
