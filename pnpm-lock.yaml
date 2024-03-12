@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@prisma/client':
     specifier: ^5.8.1
@@ -13,16 +9,16 @@ dependencies:
     version: 5.18.0(react@18.2.0)
   '@trpc/client':
     specifier: npm:@trpc/client@next
-    version: 11.0.0-next-beta.251(@trpc/server@11.0.0-next-beta.251)
+    version: 11.0.0-next-beta.318(@trpc/server@11.0.0-next-beta.318)
   '@trpc/next':
     specifier: npm:@trpc/next@next
-    version: 11.0.0-next-beta.251(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.251)(@trpc/react-query@11.0.0-next-beta.251)(@trpc/server@11.0.0-next-beta.251)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
+    version: 11.0.0-next-beta.318(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.318)(@trpc/react-query@11.0.0-next-beta.318)(@trpc/server@11.0.0-next-beta.318)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
   '@trpc/react-query':
     specifier: npm:@trpc/react-query@next
-    version: 11.0.0-next-beta.251(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.251)(@trpc/server@11.0.0-next-beta.251)(react-dom@18.2.0)(react@18.2.0)
+    version: 11.0.0-next-beta.318(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.318)(@trpc/server@11.0.0-next-beta.318)(react-dom@18.2.0)(react@18.2.0)
   '@trpc/server':
     specifier: npm:@trpc/server@next
-    version: 11.0.0-next-beta.251
+    version: 11.0.0-next-beta.318
   clsx:
     specifier: ^2.0.0
     version: 2.1.0
@@ -107,8 +103,8 @@ devDependencies:
     specifier: ^5.3.3
     version: 5.3.3
   vite:
-    specifier: ^4.1.2
-    version: 4.5.2(@types/node@20.11.14)
+    specifier: ^5.1.6
+    version: 5.1.6(@types/node@20.11.14)
   vitest:
     specifier: ^0.32.0
     version: 0.32.4
@@ -820,6 +816,110 @@ packages:
     dependencies:
       '@prisma/debug': 5.9.0
 
+  /@rollup/rollup-android-arm-eabi@4.13.0:
+    resolution: {integrity: sha512-5ZYPOuaAqEH/W3gYsRkxQATBW3Ii1MfaT4EQstTnLKViLi2gLSQmlmtTpGucNP3sXEpOiI5tdGhjdE111ekyEg==}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-android-arm64@4.13.0:
+    resolution: {integrity: sha512-BSbaCmn8ZadK3UAQdlauSvtaJjhlDEjS5hEVVIN3A4bbl3X+otyf/kOJV08bYiRxfejP3DXFzO2jz3G20107+Q==}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-darwin-arm64@4.13.0:
+    resolution: {integrity: sha512-Ovf2evVaP6sW5Ut0GHyUSOqA6tVKfrTHddtmxGQc1CTQa1Cw3/KMCDEEICZBbyppcwnhMwcDce9ZRxdWRpVd6g==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-darwin-x64@4.13.0:
+    resolution: {integrity: sha512-U+Jcxm89UTK592vZ2J9st9ajRv/hrwHdnvyuJpa5A2ngGSVHypigidkQJP+YiGL6JODiUeMzkqQzbCG3At81Gg==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-arm-gnueabihf@4.13.0:
+    resolution: {integrity: sha512-8wZidaUJUTIR5T4vRS22VkSMOVooG0F4N+JSwQXWSRiC6yfEsFMLTYRFHvby5mFFuExHa/yAp9juSphQQJAijQ==}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-arm64-gnu@4.13.0:
+    resolution: {integrity: sha512-Iu0Kno1vrD7zHQDxOmvweqLkAzjxEVqNhUIXBsZ8hu8Oak7/5VTPrxOEZXYC1nmrBVJp0ZcL2E7lSuuOVaE3+w==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-arm64-musl@4.13.0:
+    resolution: {integrity: sha512-C31QrW47llgVyrRjIwiOwsHFcaIwmkKi3PCroQY5aVq4H0A5v/vVVAtFsI1nfBngtoRpeREvZOkIhmRwUKkAdw==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-riscv64-gnu@4.13.0:
+    resolution: {integrity: sha512-Oq90dtMHvthFOPMl7pt7KmxzX7E71AfyIhh+cPhLY9oko97Zf2C9tt/XJD4RgxhaGeAraAXDtqxvKE1y/j35lA==}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-x64-gnu@4.13.0:
+    resolution: {integrity: sha512-yUD/8wMffnTKuiIsl6xU+4IA8UNhQ/f1sAnQebmE/lyQ8abjsVyDkyRkWop0kdMhKMprpNIhPmYlCxgHrPoXoA==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-x64-musl@4.13.0:
+    resolution: {integrity: sha512-9RyNqoFNdF0vu/qqX63fKotBh43fJQeYC98hCaf89DYQpv+xu0D8QFSOS0biA7cGuqJFOc1bJ+m2rhhsKcw1hw==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-win32-arm64-msvc@4.13.0:
+    resolution: {integrity: sha512-46ue8ymtm/5PUU6pCvjlic0z82qWkxv54GTJZgHrQUuZnVH+tvvSP0LsozIDsCBFO4VjJ13N68wqrKSeScUKdA==}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-win32-ia32-msvc@4.13.0:
+    resolution: {integrity: sha512-P5/MqLdLSlqxbeuJ3YDeX37srC8mCflSyTrUsgbU1c/U9j6l2g2GiIdYaGD9QjdMQPMSgYm7hgg0551wHyIluw==}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-win32-x64-msvc@4.13.0:
+    resolution: {integrity: sha512-UKXUQNbO3DOhzLRwHSpa0HnhhCgNODvfoPWv2FCXme8N/ANFfhIPMGuOT+QuKd16+B5yxZ0HdpNlqPvTMS1qfw==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
   /@rushstack/eslint-patch@1.7.2:
     resolution: {integrity: sha512-RbhOOTCNoCrbfkRyoXODZp75MlpiHMgbE5MEBZAnnnLyQNgrigEj4p0lzsMDyc1zVsJDLrivB58tgg3emX0eEA==}
     dev: true
@@ -861,21 +961,21 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@trpc/client@11.0.0-next-beta.251(@trpc/server@11.0.0-next-beta.251):
-    resolution: {integrity: sha512-Rs8vKhqBMXjiAQCL47nBEzPk04jMGI+CjnKlDNd6shZcnTpJvKubZkEXyDYdePcre8vPhxaq+BPMegMTuJdcBQ==}
+  /@trpc/client@11.0.0-next-beta.318(@trpc/server@11.0.0-next-beta.318):
+    resolution: {integrity: sha512-R3IlUZqN3WKNNWsayMiVP6JqWVdyNSuwQmBQY7VqVepUBV210uo4GoFLv2vmmegOlHzgx9IUZG7u1grN1v1nAg==}
     peerDependencies:
-      '@trpc/server': 11.0.0-next-beta.251+0e0ece4f2
+      '@trpc/server': 11.0.0-next-beta.318+e9899d002
     dependencies:
-      '@trpc/server': 11.0.0-next-beta.251
+      '@trpc/server': 11.0.0-next-beta.318
     dev: false
 
-  /@trpc/next@11.0.0-next-beta.251(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.251)(@trpc/react-query@11.0.0-next-beta.251)(@trpc/server@11.0.0-next-beta.251)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-bZEVC9UPjr6NHHTqhmu4jy1NzhbXXi23eZS2ROUALUNZkQEdXkEGliF7bVDG7NzjtEM9Pz/7071REHdZWC6rSQ==}
+  /@trpc/next@11.0.0-next-beta.318(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.318)(@trpc/react-query@11.0.0-next-beta.318)(@trpc/server@11.0.0-next-beta.318)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-qeWfJ1vPm7GchLmMZz5Gj+mBka0CRci0bCKEhGoG8RSvI/+9GbbhZHKRRDnlsN81CgexJ2e2nULET9ESO6rt+Q==}
     peerDependencies:
-      '@tanstack/react-query': ^5.0.0
-      '@trpc/client': 11.0.0-next-beta.251+0e0ece4f2
-      '@trpc/react-query': 11.0.0-next-beta.251+0e0ece4f2
-      '@trpc/server': 11.0.0-next-beta.251+0e0ece4f2
+      '@tanstack/react-query': ^5.25.0
+      '@trpc/client': 11.0.0-next-beta.318+e9899d002
+      '@trpc/react-query': 11.0.0-next-beta.318+e9899d002
+      '@trpc/server': 11.0.0-next-beta.318+e9899d002
       next: '*'
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -886,32 +986,32 @@ packages:
         optional: true
     dependencies:
       '@tanstack/react-query': 5.18.0(react@18.2.0)
-      '@trpc/client': 11.0.0-next-beta.251(@trpc/server@11.0.0-next-beta.251)
-      '@trpc/react-query': 11.0.0-next-beta.251(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.251)(@trpc/server@11.0.0-next-beta.251)(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/server': 11.0.0-next-beta.251
+      '@trpc/client': 11.0.0-next-beta.318(@trpc/server@11.0.0-next-beta.318)
+      '@trpc/react-query': 11.0.0-next-beta.318(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.318)(@trpc/server@11.0.0-next-beta.318)(react-dom@18.2.0)(react@18.2.0)
+      '@trpc/server': 11.0.0-next-beta.318
       next: 14.1.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/react-query@11.0.0-next-beta.251(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.251)(@trpc/server@11.0.0-next-beta.251)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-iDvMNVlkvBqy+SHG147A1FNnc1P7HZliT0gpJRgbuODskvIUezUgzI9sDEufZOmo+uZGqxGf+aPgBwh+3ET0mw==}
+  /@trpc/react-query@11.0.0-next-beta.318(@tanstack/react-query@5.18.0)(@trpc/client@11.0.0-next-beta.318)(@trpc/server@11.0.0-next-beta.318)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-T6l4+OuOkE4yylUqtT5EiLXo0M5+XW6YaKqnTCMkELQrrPmq3Ok0eKfhWy1Xk+ayx02POO9fTzNhITz3BID21Q==}
     peerDependencies:
-      '@tanstack/react-query': ^5.0.0
-      '@trpc/client': 11.0.0-next-beta.251+0e0ece4f2
-      '@trpc/server': 11.0.0-next-beta.251+0e0ece4f2
+      '@tanstack/react-query': ^5.25.0
+      '@trpc/client': 11.0.0-next-beta.318+e9899d002
+      '@trpc/server': 11.0.0-next-beta.318+e9899d002
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
     dependencies:
       '@tanstack/react-query': 5.18.0(react@18.2.0)
-      '@trpc/client': 11.0.0-next-beta.251(@trpc/server@11.0.0-next-beta.251)
-      '@trpc/server': 11.0.0-next-beta.251
+      '@trpc/client': 11.0.0-next-beta.318(@trpc/server@11.0.0-next-beta.318)
+      '@trpc/server': 11.0.0-next-beta.318
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/server@11.0.0-next-beta.251:
-    resolution: {integrity: sha512-eP3iafTYde/4AAmcZZmllClSgChzNMFRooN7l+AAOsLV+crzmr31QFu0+K2idiF+5Pv0L4kfQXObMZIVxU/++Q==}
+  /@trpc/server@11.0.0-next-beta.318:
+    resolution: {integrity: sha512-lxwWfqgv3LvIfhagCElDtNEY6C2sQU3o43OH0vn9hQ+7o9j+JHwEZjZz1ixvm3wUZvwZ68LheXuKL9RdVn1d4w==}
     dev: false
 
   /@types/chai-subset@1.3.5:
@@ -922,6 +1022,10 @@ packages:
 
   /@types/chai@4.3.11:
     resolution: {integrity: sha512-qQR1dr2rGIHYlJulmr8Ioq3De0Le9E4MJ5AiaeAETJJpndT1uUNHsGFK3L/UIu+rbkQSdj8J/w2bCsBZc/Y5fQ==}
+    dev: true
+
+  /@types/estree@1.0.5:
+    resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
     dev: true
 
   /@types/json-schema@7.0.15:
@@ -3436,6 +3540,15 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
+  /postcss@8.4.35:
+    resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+    dev: true
+
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -3612,6 +3725,29 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
+      fsevents: 2.3.3
+    dev: true
+
+  /rollup@4.13.0:
+    resolution: {integrity: sha512-3YegKemjoQnYKmsBlOHfMLVPPA5xLkQ8MHLLSw/fBrFaVkEayL51DilPpNNLq1exr98F2B1TzrV0FUlN3gWRPg==}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
+    dependencies:
+      '@types/estree': 1.0.5
+    optionalDependencies:
+      '@rollup/rollup-android-arm-eabi': 4.13.0
+      '@rollup/rollup-android-arm64': 4.13.0
+      '@rollup/rollup-darwin-arm64': 4.13.0
+      '@rollup/rollup-darwin-x64': 4.13.0
+      '@rollup/rollup-linux-arm-gnueabihf': 4.13.0
+      '@rollup/rollup-linux-arm64-gnu': 4.13.0
+      '@rollup/rollup-linux-arm64-musl': 4.13.0
+      '@rollup/rollup-linux-riscv64-gnu': 4.13.0
+      '@rollup/rollup-linux-x64-gnu': 4.13.0
+      '@rollup/rollup-linux-x64-musl': 4.13.0
+      '@rollup/rollup-win32-arm64-msvc': 4.13.0
+      '@rollup/rollup-win32-ia32-msvc': 4.13.0
+      '@rollup/rollup-win32-x64-msvc': 4.13.0
       fsevents: 2.3.3
     dev: true
 
@@ -4243,8 +4379,44 @@ packages:
     dependencies:
       '@types/node': 20.11.14
       esbuild: 0.18.20
-      postcss: 8.4.33
+      postcss: 8.4.35
       rollup: 3.29.4
+    optionalDependencies:
+      fsevents: 2.3.3
+    dev: true
+
+  /vite@5.1.6(@types/node@20.11.14):
+    resolution: {integrity: sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==}
+    engines: {node: ^18.0.0 || >=20.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^18.0.0 || >=20.0.0
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 20.11.14
+      esbuild: 0.19.12
+      postcss: 8.4.35
+      rollup: 4.13.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
@@ -4444,3 +4616,7 @@ packages:
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
